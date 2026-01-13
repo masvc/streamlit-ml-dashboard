@@ -7,6 +7,11 @@ __pycache__/
 env/
 venv/
 ENV/
+*.egg-info/
+
+# uv
+.venv/
+uv.lock
 
 # Streamlit
 .streamlit/
@@ -14,6 +19,8 @@ ENV/
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # OS
 .DS_Store
