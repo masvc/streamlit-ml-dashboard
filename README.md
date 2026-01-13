@@ -20,7 +20,7 @@ Iris データセットを使用した分類モデルの学習・評価・予測
 
 ### 必要要件
 
-- Python 3.8 以上
+- Python 3.10 以上（3.13 推奨）
 - [uv](https://docs.astral.sh/uv/) (推奨) または pip
 
 ### インストール
@@ -64,13 +64,13 @@ streamlit run app.py
 
 ## 📦 使用ライブラリ
 
-- Streamlit 1.31.0
-- scikit-learn 1.4.0
-- pandas 2.1.4
-- numpy 1.26.3
-- plotly 5.18.0
-- matplotlib 3.8.2
-- seaborn 0.13.1
+- Streamlit 1.52.0+
+- scikit-learn 1.8.0+
+- pandas 2.3.0+
+- numpy 2.4.0+
+- plotly 6.5.0+
+- matplotlib 3.10.0+
+- seaborn 0.13.0+
 
 ## 📸 スクリーンショット
 
